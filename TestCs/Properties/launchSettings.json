@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestCs": {
+      "commandName": "Project",
+      "commandLineArgs": "data.txt"
+    }
+  }
+}

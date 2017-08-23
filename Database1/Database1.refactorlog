@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5097b44c-12ee-4cc7-8eac-5dd0d65cf3c8" ChangeDateTime="08/21/2017 18:45:56">
+    <Property Name="ElementName" Value="[dbo].[FK_DeliveryParts_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[DeliveryParts]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_DeliveryParts_ToDeliveries]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="839c26c9-db8d-4471-a16f-d3d674c165c5" ChangeDateTime="08/21/2017 18:48:09">
+    <Property Name="ElementName" Value="[dbo].[FK_DeliveryParts_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[DeliveryParts]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_DeliveryParts_ToMachineParts]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7e983128-3491-49ba-a45c-70425301f2d7" ChangeDateTime="08/21/2017 18:51:35">
+    <Property Name="ElementName" Value="[dbo].[FK_Deliveries_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Deliveries]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Deliveries_ToRegions]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d25def8c-21dd-4b9c-9672-ef1e02f41cff" ChangeDateTime="08/21/2017 18:52:40">
+    <Property Name="ElementName" Value="[dbo].[FK_Deliveries_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Deliveries]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Deliveries_ToSupliers]" />
+  </Operation>
+</Operations>
